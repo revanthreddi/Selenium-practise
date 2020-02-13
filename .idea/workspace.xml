@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e57bff3a-c8c5-4371-a9d7-b01fcf409d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Book1.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/DataDriven.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/HerokuLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/HerokuLogin.java" afterDir="false" />
-    </list>
+    <list default="true" id="e57bff3a-c8c5-4371-a9d7-b01fcf409d8a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +10,7 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -28,6 +22,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="rgopavarapu &lt;rxg02980@ucmo.edu&gt;" />
         <option value="rgopavarapu" />
       </list>
     </option>
@@ -181,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581132562193</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1581633071600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581633071600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,10 +244,11 @@
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="689" y="416" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.972@0.23.1680.972" timestamp="1581624214702" />
-    <state x="464" y="127" key="CommitChangelistDialog2" timestamp="1581132561935">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="464" y="141" key="CommitChangelistDialog2" timestamp="1581633071330">
+      <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="464" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581132561935" />
+    <state x="464" y="141" key="CommitChangelistDialog2/0.23.1680.972@0.23.1680.972" timestamp="1581633071330" />
     <state x="100" y="123" width="1480" height="772" key="DiffContextDialog" timestamp="1581624181624">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
