@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e57bff3a-c8c5-4371-a9d7-b01fcf409d8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Book1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/DataDriven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/~$Book1.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +43,36 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1XEHc4UVGZ3yNMb0Vrqt3l2zLA6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.CucumberRunner">
+  <component name="RunManager" selected="Application.DataDriven">
+    <configuration name="DataDriven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stepDefinition.DataDriven" />
+      <module name="Selenium-practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepDefinition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/featureFiles/login.feature" />
@@ -101,9 +121,11 @@
       <item itemvalue="Cucumber java.Feature: login" />
       <item itemvalue="JUnit.CucumberRunner" />
       <item itemvalue="TestNG.OpenBrowser" />
+      <item itemvalue="Application.DataDriven" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataDriven" />
         <item itemvalue="JUnit.CucumberRunner" />
         <item itemvalue="Cucumber java.Feature: login" />
         <item itemvalue="TestNG.OpenBrowser" />
@@ -121,6 +143,14 @@
       <option name="presentableId" value="Default" />
       <updated>1580604409939</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1581132562193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581132562193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +190,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
@@ -167,38 +198,39 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="380" y="237" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580612283153">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="380" y="242" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581598673352">
+      <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="380" y="237" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580612283153" />
+    <state x="380" y="242" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.972@0.23.1680.972" timestamp="1581598673352" />
     <state x="547" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580605614246">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="547" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1580605614246" />
-    <state x="464" y="127" key="CommitChangelistDialog2" timestamp="1580613969319">
+    <state x="464" y="127" key="CommitChangelistDialog2" timestamp="1581132561935">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="464" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1580613969319" />
-    <state width="819" height="363" key="GridCell.Tab.0.bottom" timestamp="1580854684499">
+    <state x="464" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1581132561935" />
+    <state width="1638" height="262" key="GridCell.Tab.0.bottom" timestamp="1581608326795">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580614072800" />
-    <state width="819" height="363" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1580854684499" />
-    <state width="819" height="363" key="GridCell.Tab.0.center" timestamp="1580854684498">
+    <state width="1638" height="262" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1581608326795" />
+    <state width="1638" height="262" key="GridCell.Tab.0.center" timestamp="1581608326795">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580614072798" />
-    <state width="819" height="363" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1580854684498" />
-    <state width="819" height="363" key="GridCell.Tab.0.left" timestamp="1580854684497">
+    <state width="1638" height="262" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1581608326795" />
+    <state width="1638" height="262" key="GridCell.Tab.0.left" timestamp="1581608326794">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580614072797" />
-    <state width="819" height="363" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1580854684497" />
-    <state width="819" height="363" key="GridCell.Tab.0.right" timestamp="1580854684498">
+    <state width="1638" height="262" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1581608326794" />
+    <state width="1638" height="262" key="GridCell.Tab.0.right" timestamp="1581608326795">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580614072799" />
-    <state width="819" height="363" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1580854684498" />
+    <state width="1638" height="262" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1581608326795" />
     <state width="819" height="363" key="GridCell.Tab.1.bottom" timestamp="1580854684501">
       <screen x="0" y="23" width="1680" height="972" />
     </state>
@@ -219,17 +251,23 @@
     </state>
     <state width="819" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580613466270" />
     <state width="819" height="363" key="GridCell.Tab.1.right/0.23.1680.972@0.23.1680.972" timestamp="1580854684500" />
-    <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1580607220012">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="378" y="196" key="Maven.ArtifactSearchDialog" timestamp="1581599199653">
+      <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="378" y="187" key="Maven.ArtifactSearchDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580607220012" />
+    <state x="378" y="196" key="Maven.ArtifactSearchDialog/0.23.1680.972@0.23.1680.972" timestamp="1581599199653" />
     <state x="341" y="164" key="SettingsEditor" timestamp="1580605776356">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1580605776356" />
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1581132534693">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="517" y="353" key="com.intellij.ide.util.TipDialog" timestamp="1581561751413">
+      <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581132534693" />
+    <state x="517" y="353" key="com.intellij.ide.util.TipDialog/0.23.1680.972@0.23.1680.972" timestamp="1581561751413" />
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1581602208319">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.972@0.23.1680.972" timestamp="1581602208319" />
   </component>
 </project>
