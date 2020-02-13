@@ -1,15 +1,10 @@
 package stepDefinition;
 
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import sun.awt.geom.AreaOp;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -36,6 +31,19 @@ public class DataDriven {
             if(workbook.getSheetName(i).equalsIgnoreCase("sheet1")) {
                 // Start with [row, column][1,1]
                 XSSFSheet sheet = workbook.getSheetAt(i);
+                Iterator<Row> rows = sheet.iterator();
+                Row firstrow = rows.next();
+                Iterator<Cell> cell = firstrow.cellIterator();
+                int k = 0;
+                int coloumn = 0;
+                while (cell.hasNext()) {
+                    Cell value = cell.next();
+                    if (value.getStringCellValue().equalsIgnoreCase("TestCases")) {
+                        coloumn = k;
+                    }
+                    k++;
+                }
+                System.out.println(coloumn);
             }
 
         }
