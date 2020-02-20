@@ -6,37 +6,36 @@ import org.openqa.selenium.WebElement;
 
 public class loginpage {
     WebDriver driver;
-    By Username = By.id("username");
-    By Password = By.id("password");
-    By LoginButton = By.xpath("//*[@id=\"login\"]/button/i");
-    By GetTextAfterLogin = By.xpath("//*[@id=\"content\"]/div/h4");
-    By logoutButton = By.xpath("//*[@id=\"content\"]/div/a/i");
+    // Page factory model
 
-    // constructor here helps to use this objects in main page
     public loginpage(WebDriver driver) {
         this.driver = driver;
-//    By logout = By.xpath()
-//    By url =
     }
 
+    By Username = By.id("username");
     public WebElement username() {
         return driver.findElement(Username);
     }
 
+    By Password = By.id("password");
     public WebElement password() {
         return driver.findElement(Password);
     }
 
+    By LoginButton = By.xpath("//*[@id=\"login\"]/button/i");
     public WebElement submit() {
         return driver.findElement(LoginButton);
     }
 
+    By GetTextAfterLogin = By.xpath("//*[@id=\"content\"]/div/h4");
     public WebElement textVerification() {
         return driver.findElement(GetTextAfterLogin);
     }
 
+    By logoutButton = By.xpath("//*[@id=\"content\"]/div/a/i");
     public WebElement logoutButton() {
         return driver.findElement(logoutButton);
     }
 
+    // constructor here helps to use this objects in main page
 }
